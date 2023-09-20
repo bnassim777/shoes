@@ -1,0 +1,37 @@
+header {
+  background-color: #f6d4f5;
+  margin: 12px 12px 12px 12px;
+}
+header .topbar {
+  color: white;
+  background-color: black;
+}
+header img {
+  position: sticky;
+}
+header nav {
+  border: red 5px solid;
+  text-align: center;
+}
+header nav a {
+  padding: 8rem;
+}
+header #cart {
+  border: yellow 5px solid;
+  position: absolute;
+  width: 8rem;
+  top: 0;
+  right: 0;
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+  text-align: end;
+  font-size: 8px;
+  display: block;
+}
+header #cart .ccart {
+  margin: 1rem 0;
+  width: 50%;
+  border: red 1px solid;
+  text-align: center;
+  height: 30px;
+}/*# sourceMappingURL=style.css.map */
