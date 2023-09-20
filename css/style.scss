@@ -88,6 +88,9 @@ header {
         text-align: center;
         align-items: center;
     }
+    img{
+        padding-right: 1rem;
+    }
 
     #new {
         background-color: white;
@@ -141,4 +144,15 @@ header {
     small {
         font-style: italic;
     }
+}
+
+#info{
+    display: flex;
+    justify-content: space-evenly;
+    border: red 5px solid;
+    flex-wrap: wrap;
+    align-items: baseline;
+    padding-left: 2rem;
+    font-size: large;
+
 }

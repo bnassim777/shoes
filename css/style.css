@@ -73,6 +73,9 @@ header #left {
   text-align: center;
   align-items: center;
 }
+#news img {
+  padding-right: 1rem;
+}
 #news #new {
   background-color: white;
   margin-top: 1rem;
@@ -114,4 +117,14 @@ header #left {
 }
 #news small {
   font-style: italic;
+}
+
+#info {
+  display: flex;
+  justify-content: space-evenly;
+  border: red 5px solid;
+  flex-wrap: wrap;
+  align-items: baseline;
+  padding-left: 2rem;
+  font-size: large;
 }/*# sourceMappingURL=style.css.map */
