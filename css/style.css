@@ -15,7 +15,7 @@ header img {
   position: sticky;
 }
 header nav {
-  border: red 5px solid;
+  border: lightgrey 1px solid;
   text-align: center;
 }
 header nav a {
@@ -33,7 +33,7 @@ header #left {
 
 .container {
   width: 80%;
-  border: black 5px solid;
+  border: lightgrey 1px solid;
   margin: 0 auto;
 }
 
@@ -68,6 +68,50 @@ header #left {
   display: flex;
   justify-content: space-around;
 }
-#news h2 {
+#news article {
+  padding: 2rem;
+  text-align: center;
+  align-items: center;
+}
+#news #new {
   background-color: white;
+  margin-top: 1rem;
+}
+#news #new h2 {
+  background-color: #ea32c4;
+  padding: 1rem 1rem;
+  width: 90%;
+}
+#news #new h3 {
+  font-style: italic;
+  font-weight: bolder;
+}
+#news #best {
+  background-color: white;
+  margin-top: 1rem;
+}
+#news #best h2 {
+  background-color: #92be44;
+  padding: 1rem;
+  width: 90%;
+}
+#news #best h3 {
+  font-style: italic;
+  font-weight: bolder;
+}
+#news #crush {
+  background-color: white;
+  margin-top: 1rem;
+}
+#news #crush h2 {
+  background-color: #0099b1;
+  padding: 1rem 1rem;
+  width: 90%;
+}
+#news #crush h3 {
+  font-style: italic;
+  font-weight: bolder;
+}
+#news small {
+  font-style: italic;
 }/*# sourceMappingURL=style.css.map */

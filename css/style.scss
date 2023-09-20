@@ -1,4 +1,4 @@
-html{
+html {
     background-color: lightgrey;
 }
 
@@ -18,7 +18,7 @@ header {
     margin: 12px 12px 12px 12px;
 
     nav {
-        border: red 5px solid;
+        border: lightgrey 1px solid;
         text-align: center;
 
 
@@ -41,7 +41,7 @@ header {
 
 .container {
     width: 80%;
-    border: black 5px solid;
+    border: lightgrey 1px solid;
     margin: 0 auto;
 }
 
@@ -49,37 +49,96 @@ header {
     img {
         width: 100%;
         height: auto;
-        border:grey 1px solid;
+        border: grey 1px solid;
     }
 
 }
 
 #select {
     display: flex;
-    flex-wrap:wrap ;
+    flex-wrap: wrap;
     align-items: baseline;
     justify-content: space-evenly;
     background-color: white;
-    h1{
-        padding-left:2rem;
+
+    h1 {
+        padding-left: 2rem;
         width: 100%;
     }
-    .escarpin img{
+
+    .escarpin img {
         filter: opacity(70%);
-        &:hover{
+
+        &:hover {
             transform: scale(1.1);
             transition: transform 0.3s ease-in-out;
-            filter:opacity(100%);
+            filter: opacity(100%);
             transition: 0.4s ease-out;
         }
     }
 
 }
 
-#news{
+#news {
     display: flex;
     justify-content: space-around;
-    h2{
+
+    article {
+        padding: 2rem;
+        text-align: center;
+        align-items: center;
+    }
+
+    #new {
         background-color: white;
+        margin-top: 1rem;
+
+        h2 {
+            background-color: #ea32c4;
+            padding: 1rem 1rem;
+            width: 90%;
+
+        }
+
+        h3 {
+            font-style: italic;
+            font-weight: bolder;
+        }
+
+    }
+
+    #best {
+        background-color: white;
+        margin-top: 1rem;
+
+        h2 {
+            background-color: #92be44;
+            padding: 1rem;
+            width: 90%;
+
+        }
+        h3 {
+            font-style: italic;
+            font-weight: bolder;
+        }
+    }
+    #crush{
+        background-color: white;
+        margin-top: 1rem;
+
+        h2 {
+            background-color: #0099b1;
+            padding: 1rem 1rem;
+            width: 90%;
+
+        }
+        h3 {
+            font-style: italic;
+            font-weight: bolder;
+        }
+    }
+
+    small {
+        font-style: italic;
     }
 }
