@@ -64,4 +64,22 @@ header {
         padding-left:2rem;
         width: 100%;
     }
+    .escarpin img{
+        filter: opacity(70%);
+        &:hover{
+            transform: scale(1.1);
+            transition: transform 0.3s ease-in-out;
+            filter:opacity(100%);
+            transition: 0.4s ease-out;
+        }
+    }
+
+}
+
+#news{
+    display: flex;
+    justify-content: space-around;
+    h2{
+        background-color: white;
+    }
 }
