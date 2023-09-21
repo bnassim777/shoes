@@ -43,9 +43,21 @@ header {
     width: 80%;
     border: lightgrey 1px solid;
     margin: 0 auto;
+    position: relative; // Assurez-vous que le conteneur est positionné de manière relative
+    display: inline-block;
 }
 
 #slider {
+    .text-overlay {
+        position: absolute; // Position absolue par rapport au conteneur
+        top: 0; // En haut du conteneur
+        left: 0; // À gauche du conteneur
+        background-color: #f6d4f5;
+        opacity:70%;
+        color: white; // Couleur du texte
+        padding: 10px; // Espacement autour du texte
+    }
+
     img {
         width: 100%;
         height: auto;
@@ -88,7 +100,8 @@ header {
         text-align: center;
         align-items: center;
     }
-    img{
+
+    img {
         padding-right: 1rem;
     }
 
@@ -120,12 +133,14 @@ header {
             width: 90%;
 
         }
+
         h3 {
             font-style: italic;
             font-weight: bolder;
         }
     }
-    #crush{
+
+    #crush {
         background-color: white;
         margin-top: 1rem;
 
@@ -135,6 +150,7 @@ header {
             width: 90%;
 
         }
+
         h3 {
             font-style: italic;
             font-weight: bolder;
@@ -146,13 +162,40 @@ header {
     }
 }
 
-#info{
-    display: flex;
-    justify-content: space-evenly;
-    border: red 5px solid;
-    flex-wrap: wrap;
-    align-items: baseline;
-    padding-left: 2rem;
-    font-size: large;
+footer {
 
+    #info {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #e4afe2;
+        padding: 1rem 0;
+    }
+
+
+
+    article {
+        display: flex;
+        flex-direction: column;
+        border: red 5px solid;
+        text-align: center;
+    }
+
+    #bottombar {
+        background-color: #f5d5f6;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+
+
+        article {
+            display: flex;
+            flex-direction: column;
+
+            ul {
+                list-style-type: none;
+            }
+
+        }
+
+    }
 }

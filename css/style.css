@@ -35,8 +35,19 @@ header #left {
   width: 80%;
   border: lightgrey 1px solid;
   margin: 0 auto;
+  position: relative;
+  display: inline-block;
 }
 
+#slider .text-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f6d4f5;
+  opacity: 70%;
+  color: white;
+  padding: 10px;
+}
 #slider img {
   width: 100%;
   height: auto;
@@ -119,12 +130,28 @@ header #left {
   font-style: italic;
 }
 
-#info {
+footer #info {
   display: flex;
   justify-content: space-evenly;
+  background-color: #e4afe2;
+  padding: 1rem 0;
+}
+footer article {
+  display: flex;
+  flex-direction: column;
   border: red 5px solid;
-  flex-wrap: wrap;
-  align-items: baseline;
-  padding-left: 2rem;
-  font-size: large;
+  text-align: center;
+}
+footer #bottombar {
+  background-color: #f5d5f6;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+footer #bottombar article {
+  display: flex;
+  flex-direction: column;
+}
+footer #bottombar article ul {
+  list-style-type: none;
 }/*# sourceMappingURL=style.css.map */
