@@ -36,7 +36,26 @@ header #left {
   border: lightgrey 1px solid;
   margin: 0 auto;
   position: relative;
-  display: inline-block;
+}
+.container #cart {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container #cart p span {
+  display: block;
+}
+.container #cart .icon {
+  color: #f6d4f5;
+  font-size: 24px;
+  padding-left: 1rem;
+  font-color: #e4afe2;
+}
+.container #cart .clear {
+  clear: both;
 }
 
 #slider .text-overlay {
@@ -139,7 +158,6 @@ footer #info {
 footer article {
   display: flex;
   flex-direction: column;
-  border: red 5px solid;
   text-align: center;
 }
 footer #bottombar {

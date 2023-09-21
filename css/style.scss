@@ -43,19 +43,45 @@ header {
     width: 80%;
     border: lightgrey 1px solid;
     margin: 0 auto;
-    position: relative; // Assurez-vous que le conteneur est positionné de manière relative
-    display: inline-block;
+    position: relative;
+
+    #cart {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p {
+            span {
+
+                display: block;
+            }
+        }
+
+        .icon {
+            color: #f6d4f5;
+            font-size: 24px;
+            padding-left: 1rem;
+            font-color:#e4afe2;
+        }
+
+        .clear {
+            clear: both;
+        }
+    }
 }
 
 #slider {
     .text-overlay {
-        position: absolute; // Position absolue par rapport au conteneur
-        top: 0; // En haut du conteneur
-        left: 0; // À gauche du conteneur
+        position: absolute;
+        top: 0;
+        left: 0;
         background-color: #f6d4f5;
-        opacity:70%;
-        color: white; // Couleur du texte
-        padding: 10px; // Espacement autour du texte
+        opacity: 70%;
+        color: white;
+        padding: 10px;
     }
 
     img {
@@ -176,7 +202,6 @@ footer {
     article {
         display: flex;
         flex-direction: column;
-        border: red 5px solid;
         text-align: center;
     }
 
