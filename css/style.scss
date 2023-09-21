@@ -2,6 +2,11 @@ html {
     background-color: lightgrey;
 }
 
+@media (max-width: 768px) 
+    body {
+      font-size: 14px;
+    }
+
 header {
     background-color: #f6d4f5;
 
@@ -61,10 +66,9 @@ header {
         }
 
         .icon {
-            color: #f6d4f5;
+            color: #e4afe2;
             font-size: 24px;
             padding-left: 1rem;
-            font-color:#e4afe2;
         }
 
         .clear {

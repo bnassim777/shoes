@@ -49,10 +49,9 @@ header #left {
   display: block;
 }
 .container #cart .icon {
-  color: #f6d4f5;
+  color: #e4afe2;
   font-size: 24px;
   padding-left: 1rem;
-  font-color: #e4afe2;
 }
 .container #cart .clear {
   clear: both;
